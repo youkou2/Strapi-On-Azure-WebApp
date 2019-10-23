@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client":"mongo",
+        "host":"my-db.azure.com",
+        "database":"db-name",
+        "username":"myName",
+        "password":"FQxGK1sd1ifxba3l6w0EHXQfsR3LGN35TAWrMl1EeymLqngqNp53859tDkH3jK3A5w==",
+        "port":"10255"
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}

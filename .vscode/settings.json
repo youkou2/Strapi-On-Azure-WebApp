@@ -1,0 +1,6 @@
+{
+  "appService.deploySubpath": "",
+  "appService.showBuildDuringDeployPrompt": false,
+
+  "appService.defaultWebAppToDeploy": "/subscriptions/2d8a3c7f-7564-4e2d-8305-bbbc86c77074/resourceGroups/EiffagePOC/providers/Microsoft.Web/sites/strapi-linux"
+}
