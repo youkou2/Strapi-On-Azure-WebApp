@@ -1,6 +1,6 @@
 {
   "gzip": {
-    "enabled": true
+    "enabled": false
   },
   "responseTime": {
     "enabled": false

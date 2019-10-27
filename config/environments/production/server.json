@@ -1,9 +1,12 @@
 {
-  "host": "strapi-on-azure.azurewebsites.net",
+  "host": "localhost",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
-    "enabled": false
+    "enabled": true,
+    "ssl": true,
+    "host": "your-webapp-name.azurewebsites.net",
+    "port": 443
   },
   "cron": {
     "enabled": false
