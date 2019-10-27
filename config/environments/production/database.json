@@ -2,17 +2,17 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-hook-mongoose",
+      "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client":"mongo",
-        "host":"my-db.azure.com",
-        "database":"db-name",
-        "username":"myName",
-        "password":"FQxGK1sd1ifxba3l6w0EHXQfsR3LGN35TAWrMl1EeymLqngqNp53859tDkH3jK3A5w==",
-        "port":"10255"
+        "client": "${process.env.DATABASE_HOST ||sqlite'}",
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
+        "port": "${process.env.DATABASE_PORT || 27017}",
+        "database": "${process.env.DATABASE_NAME || 'strapi'}",
+        "username": "${process.env.DATABASE_USERNAME || ''}",
+        "password": "${process.env.DATABASE_PASSWORD || ''}",
       },
       "options": {
-        "ssl": true
+        "ssl": "${process.env.DATABASE_SSL || false}",
       }
     }
   }
