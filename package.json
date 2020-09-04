@@ -13,7 +13,7 @@
   "dependencies": {
     "knex": "latest",
     "sqlite3": "^4.1.0",
-    "strapi": "3.0.0-beta.17.2",
+    "strapi": "3.0.0-beta.17.8",
     "strapi-admin": "3.0.0-beta.17.2",
     "strapi-hook-bookshelf": "^3.0.0-beta.17.2",
     "strapi-hook-knex": "3.0.0-beta.17.2",
